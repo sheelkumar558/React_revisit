@@ -5,7 +5,7 @@ import LetsTalkBtn from "../Common/LetsTalkBtn";
 const CTA = () => {
   return (
     <div className="cta">
-      <a href={CV} download="Sandeep\'s resume" className="btn">
+      <a href={CV} download="Sheelkumar\'s resume" className="btn">
         Download CV
       </a>
       <LetsTalkBtn />

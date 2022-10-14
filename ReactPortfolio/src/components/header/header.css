@@ -43,10 +43,9 @@ header {
   height: auto;
   position: absolute;
   left: calc(50% - 11rem);
-  margin-top: 1rem;
   border-radius: 12rem 12rem 12rem 12rem;
   overflow: hidden;
-  padding: 3rem 0 0 0;
+  padding: 55px;
 }
 
 /* =========================== SCROLL DOWN ===========================*/

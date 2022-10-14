@@ -1,31 +1,32 @@
 let PortfolioViewModel = [
   {
-    title: "Safe Messenger",
+    title: "Timecamp clone",
     imageURLs: [
-      "https://user-images.githubusercontent.com/76823175/180633938-54250097-5536-4a0f-9f1a-9c42bc132121.png",
-      "https://user-images.githubusercontent.com/76823175/180633948-f085b410-61f3-49e0-a447-84c6597139c5.png",
+      "https://github.com/sheelkumar558/React_revisit/blob/main/img/timecamp1.png?raw=true",
+      "https://github.com/sheelkumar558/React_revisit/blob/main/img/timecamp2.png?raw=true",
     ],
-    projectURL: "https://github.com/mrSandeepKr/SafeMessenger",
+    projectURL: "https://github.com/goriens/imminent-pencil-4149",
   },
   {
-    title: "Cowin Vaccine Status",
+    title: "Lumen5 clone",
     imageURLs: [
-      "https://github.com/mrSandeepKr/Medium-CowinVaccineStatusProj/blob/main/ReadMeImages/Screenshot%202021-09-12%20at%2012.48.40%20AM.png?raw=true",
+      "https://github.com/sheelkumar558/React_revisit/blob/main/img/lumen5.png?raw=true",
     ],
-    projectURL: "https://github.com/mrSandeepKr/Medium-CowinVaccineStatusProj",
+    projectURL: "https://github.com/Aayush771/Lumen-5-Clone",
   },
   {
-    title: "Spotify Clone",
+    title: "Deyga Clone",
     imageURLs: [
-      "https://github.com/mrSandeepKr/Spotify-Clone/blob/master/ReadMeImages/PlaylistView.png?raw=true",
+      "https://github.com/sheelkumar558/React_revisit/blob/main/img/deyga.png?raw=true",
     ],
-    projectURL: "https://github.com/mrSandeepKr/Spotify-Clone",
+    projectURL: "https://github.com/sarkarsubho/Deyga-Backend-Unit4CW",
   },
   {
-    title: "Custom App Testing Script",
-    imageURLs: ["https://miro.medium.com/max/1092/0*xxMMKqpxI8jPEn2m"],
-    projectURL:
-      "https://github.com/mrSandeepKr/ScriptToAuomateActionAppDataGeneration",
+    title: "Shopping cart clone",
+    imageURLs: [
+      "https://github.com/sheelkumar558/React_revisit/blob/main/img/web.png?raw=true",
+    ],
+    projectURL: "https://github.com/sheelkumar558/Ecommerce-App",
   },
 ];
 

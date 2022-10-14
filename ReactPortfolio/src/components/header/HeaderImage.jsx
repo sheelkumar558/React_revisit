@@ -1,10 +1,10 @@
 import React from "react";
-import ME from "./../../assets/pic.jpg";
+import ME from "./../../assets/pngpic.png";
 
 const HeaderImage = () => {
   return (
     <div className="me">
-      <img src={ME} width="5px" height="600px" alt="me" />
+      <img src={ME} max-width="30%" height="400px" alt="me" />
     </div>
   );
 };

@@ -1,8 +1,8 @@
 import React from "react";
 import "./nav.css";
-import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
+import { AiOutlineHome, AiOutlineUser, AiFillProject } from "react-icons/ai";
 import { BiBook, BiMessageSquareDetail } from "react-icons/bi";
-import { RiServiceLine } from "react-icons/ri";
+
 import { useState } from "react";
 
 const nav = () => {
@@ -38,7 +38,16 @@ const nav = () => {
         {" "}
         <BiBook />
       </a>
-      {/* <a href='#services' onClick= {() => {setActiveNacv('#services')}} className= {activeNav === '#services' ? 'active' : ''}> <RiServiceLine/></a>  */}
+      <a
+        href="#portfolio"
+        onClick={() => {
+          setActiveNacv("#protfolio");
+        }}
+        className={activeNav === "#protfolio" ? "active" : ""}
+      >
+        {" "}
+        <AiFillProject />
+      </a>
       <a
         href="#contact"
         onClick={() => {

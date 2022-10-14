@@ -1,5 +1,5 @@
 import React from "react";
-import AboutMeImg from "./../../assets/profilepic.jpg";
+import AboutMeImg from "./../../assets/tinywow_profilepic.png";
 
 const AboutMeImage = () => {
   return (
