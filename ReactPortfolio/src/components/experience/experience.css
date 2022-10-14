@@ -1,0 +1,82 @@
+.experience__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.experience__card {
+    background: var(--color-bg-variant);
+    text-align: center;
+    padding: 2.4rem 5rem ;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.experience__card:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.experience__card h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+}
+
+.experience__cardContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.experience__cardElement {
+    display: flex;
+    gap: 1rem;
+}
+
+.experience__cardElement-icon {
+    margin-top: 6px;
+    color: var(--color-primary);
+}
+
+.experience__cardElement-content {
+    text-align: left;
+}
+
+/* ===========================================================================================================================================*/
+/* ========================================================== MEDIA QUERIES (MEDIUM DEVICES) =================================================*/
+/* ===========================================================================================================================================*/
+
+@media screen and (max-width: 1024px) {
+    .experience__container {
+        grid-template-columns: 1fr;
+    }
+
+    .experience__card {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+    .experience__cardContent {
+        padding: 1rem;
+    }
+}
+
+
+/* ===========================================================================================================================================*/
+/* ========================================================== MEDIA QUERIES (SMALL DEVICES) =================================================*/
+/* ===========================================================================================================================================*/
+
+@media screen and (max-width: 600px) {
+    .experience__container {
+        gap:1rem;
+    }
+
+    .experience__card {
+        width: 100%;
+        padding: 1rem 1rem;
+    }
+}
