@@ -1,5 +1,5 @@
 import React from "react";
-import { FaAward, FaProjectDiagram, FaStopwatch20 } from "react-icons/fa";
+import { FaAward, FaProjectDiagram, FaStopwatch } from "react-icons/fa";
 import AboutCard from "./AboutCard";
 import AboutDescription from "./AboutDescription";
 import LetsTalkBtn from "../Common/LetsTalkBtn";
@@ -10,11 +10,11 @@ const AboutContent = () => {
       <div className="about__cards">
         <AboutCard title={"Experience"} subTitle={"#fresher"} icon={FaAward} />
         <AboutCard
-          title={"Projects"}
+          title={"Cloning projects"}
           subTitle={"5+ projects"}
           icon={FaProjectDiagram}
         />
-        <AboutCard title={"CP"} subTitle={"Beginner"} icon={FaStopwatch20} />
+        <AboutCard title={"CP"} subTitle={"Beginner"} icon={FaStopwatch} />
       </div>
 
       <AboutDescription />
