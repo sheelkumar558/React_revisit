@@ -1,0 +1,28 @@
+mongodb
+
+mern stack
+
+M- Mongodb - No sql
+
+sql  ------ No sql
+structured   |  not structured
+table        |  object(json format) , add new field , flexbilty, calixbilty,faster,scheema,
+
+
+// mockaroo.com  data
+use web1
+show collections
+//students (database name)
+db.students.count()
+
+db.students.find({}).pretty()
+
+and condition
+
+db.students.find({$and :[{gender:"male},{id:{$lt:20}}]}).pretty()
+lt=less then
+gt = greter then
+lte =
+gte =
+db.students.find({$and :[{gender:"male"},{id:{$lt:20}}]}).pretty()
+

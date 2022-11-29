@@ -1,5 +1,6 @@
 import React from "react";
-import { Main } from "./ReactRouter/Main";
+import { Main } from "./ReactRedux/Main";
+// import { Main } from "./ReactRouter/Main";
 //import { HookTimer } from "./hooks/useRefHooks/HookTimer";
 //import { FocusInput } from "./hooks/useRefHooks/FocusInput";
 //import { Counter } from "./hooks/useMemoHooks/Counter";
@@ -28,6 +29,7 @@ const App = () => {
       {/* <Counter /> */}
       {/* <FocusInput /> */}
       {/* <HookTimer /> */}
+      {/* <Main /> */}
       <Main />
     </div>
   );
