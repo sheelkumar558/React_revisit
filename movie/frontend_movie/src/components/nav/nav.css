@@ -1,0 +1,10 @@
+.nav {
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  height: 20px;
+  padding: 20px;
+  border: 1px solid black;
+  text-decoration: none;
+  margin-bottom: 20px;
+}

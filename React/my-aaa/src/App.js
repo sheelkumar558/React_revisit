@@ -1,5 +1,5 @@
 import React from "react";
-import { Main } from "./ReactRedux/Main";
+//import { Main } from "./ReactRedux/Main";
 // import { Main } from "./ReactRouter/Main";
 //import { HookTimer } from "./hooks/useRefHooks/HookTimer";
 //import { FocusInput } from "./hooks/useRefHooks/FocusInput";
@@ -30,7 +30,7 @@ const App = () => {
       {/* <FocusInput /> */}
       {/* <HookTimer /> */}
       {/* <Main /> */}
-      <Main />
+      {/* <Main /> */}
     </div>
   );
 };
