@@ -5,9 +5,12 @@ export const Image = ({ img }) => {
     <div
       style={{
         textAlign: "center",
+        width: "380px",
+        height: "410px",
+        margin: "auto",
       }}
     >
-      <img width="370px" hight="400px" src={img} alt="" />
+      <img width="370px" height="400px" src={img} alt="clicked any image" />
     </div>
   );
 };
