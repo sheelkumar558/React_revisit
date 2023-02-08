@@ -1,0 +1,135 @@
+#topNav {
+  background-image: linear-gradient(
+    to right,
+    #cc95c0 0%,
+    #cc95c0 41%,
+    #dbd4b4 100%
+  );
+}
+
+.grid {
+  width: 600px;
+  height: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 10px 50px 50px 50px;
+  border-radius: 50px;
+  border: 2px solid #cbcbcb;
+  box-shadow: 10px 15px 5px #cbcbcb;
+}
+
+h1 {
+  text-align: center;
+  z-index: 1;
+}
+
+.card-body {
+  margin-top: 30px;
+  border-radius: 39px;
+  background: #8bdbcb;
+}
+
+#ques {
+  color: rgb(4, 80, 80);
+  text-align: center;
+  border-radius: 8px;
+  padding: 4% 2%;
+  font-size: 26px;
+}
+
+.button {
+  margin: 30px 0;
+}
+
+.button > button {
+  /* background-color: thistle; */
+  color: rgb(4, 80, 80);
+  text-align: center;
+  border-radius: 10px;
+  margin: 10px auto 10px;
+  padding: 10px 10px;
+  width: 250px;
+  font-size: 20px;
+  border: 0px;
+}
+
+.button > button:hover {
+  cursor: pointer;
+  background-color: rgb(4, 80, 80);
+  color: white;
+  background-image: linear-gradient(
+    to right,
+    #1a2980 0%,
+    #26d0ce 51%,
+    #1a2980 100%
+  );
+}
+
+.button > button:focus {
+  outline: 0;
+}
+
+#ques {
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+  padding: 4% 2%;
+  font-size: 30px;
+}
+
+#progressQues {
+  color: cadetblue;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#finalPage {
+  background-color: #1d3c6a;
+  color: floralwhite;
+  width: 600px;
+  min-height: 500px;
+  margin: 0 auto;
+  padding: 10px 50px 50px 50px;
+  border-radius: 50px;
+  border: 2px solid #cbcbcb;
+  box-shadow: 10px 15px 5px #cbcbcb;
+  text-align: center;
+}
+
+#result {
+  font-family: "mistral";
+  font-size: 60px;
+  color: whitesmoke;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: #2bc5a6 !important;
+  }
+
+  .card {
+    background-color: #2bc5a6 !important;
+  }
+
+  .card-body {
+    box-shadow: 24px 24px 40px #20947d, -24px -24px 40px #36f6d0;
+  }
+
+  #time {
+    position: relative;
+  }
+
+  #progressQues {
+    position: relative;
+    color: rgb(4, 80, 80);
+  }
+
+  #finalPage {
+    background-color: #2bc5a6;
+    box-shadow: 10px 15px 5px #cbcbcb62;
+  }
+
+  #result {
+    font-family: "Metropolis Regular";
+  }
+}
